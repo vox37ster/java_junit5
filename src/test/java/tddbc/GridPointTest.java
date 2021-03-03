@@ -1,20 +1,20 @@
 package tddbc;
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 public class GridPointTest {
 
     @Test
     public void _x座標とy座標を与えて格子点を生成する() throws Exception {
         // Setup
-    	// GridPoint
-        Sample sut = new Sample();
+    	// GridPoint sut = new GridPoint();
         // Exercise
-        String actual = sut.say();
+        // String actual = sut.say();
         // Verify
-        assertEquals("Hello TDD BootCamp!", actual);
+    	fail();
+        // assertEquals("Hello TDD BootCamp!", actual);
     }
 
 }
